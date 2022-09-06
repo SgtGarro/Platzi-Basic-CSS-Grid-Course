@@ -2,15 +2,23 @@
     border: 5px solid #e1bee7;
     background-color: #fff1ff;
     display: grid;
-    grid-template-rows: 100px 200px;
-    grid-auto-columns: 100px;
-    grid-auto-flow: column;
-    gap: 40px;
+    grid-template-columns: 150px 150px 150px;
+    grid-auto-rows: 150px;
+    gap: 15px;
+    height: 600px;
+    place-content: end;
+    justify-items: end;
+    align-items: start;
 }
 
 .item {
     border: 5px solid #00bcd4;
     font-size: 4rem;
+}
+
+.contenedor .item:nth-child(2) {
+    justify-self: start;
+    align-self: end;
 } */
 
 /* Reto cumplido */
@@ -18,12 +26,11 @@
     border: 5px solid #e1bee7;
     background-color: #fff1ff;
     display: grid;
-    grid-template-rows: 100px 100px 100px;
-    grid-auto-columns: 100px;
-    grid-auto-flow: column;
-    gap: 20px;
+    grid-template-columns: 150px 150px;
+    grid-auto-rows: 150px;
+    gap: 15px;
+    place-items: end;
 }
-
 .item {
     border: 5px solid #00bcd4;
     font-size: 4rem;
