@@ -9,3 +9,4 @@
 7. Primera seccion
 8. Creando grilla con área
 9. Armando el listado
+10. Conversión a responsive
