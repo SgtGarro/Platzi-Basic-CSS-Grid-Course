@@ -7,3 +7,4 @@
 5. Keywords especiales
 6. Proyecto
 7. Primera seccion
+8. Creando grilla con área
