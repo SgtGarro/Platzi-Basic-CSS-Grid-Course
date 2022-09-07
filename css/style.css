@@ -1,19 +1,25 @@
-.contenedor {
-    border: 5px solid #e1bee7;
-    background-color: white;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+* {
+    font-family: 'Roboto', sans-serif;
 }
 
-.item {
-    border: 5px solid #00bcd4;
-    font-size: 2rem;
+main {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
 }
 
-.contenedor-2 {
-    border: 5px solid #e1bee7;
-    background-color: white;
+.hero {
     display: grid;
-    margin-top: 100px;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-columns: 2fr 3fr;
+    grid-auto-rows: 400px;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.hero-info {
+    align-self: center;
 }
